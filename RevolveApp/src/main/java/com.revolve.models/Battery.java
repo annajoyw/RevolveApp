@@ -4,7 +4,7 @@ public class Battery{
     private String ModelName;
     private String id;
     private double BatteryWeightInKg;
-    private decimal CurrentTotalValue;
+    private float CurrentTotalValue;
 
     public String getModelName() {
         return ModelName;
