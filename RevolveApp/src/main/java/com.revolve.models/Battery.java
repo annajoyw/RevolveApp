@@ -18,7 +18,7 @@ public class Battery{
         return BatteryWeightInKg;
     }
 
-    public decimal getCurrentTotalValue() {
+    public float getCurrentTotalValue() {
         return CurrentTotalValue;
     }
 
@@ -34,7 +34,7 @@ public class Battery{
         BatteryWeightInKg = batteryWeightInKg;
     }
 
-    public void setCurrentTotalValue(decimal currentTotalValue) {
+    public void setCurrentTotalValue(float currentTotalValue) {
         CurrentTotalValue = currentTotalValue;
     }
 }
